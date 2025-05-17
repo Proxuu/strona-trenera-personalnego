@@ -1,4 +1,6 @@
-# ⚡ Vite React TypeScript Starter
+# Link do strony: https://frolicking-puppy-6a847f.netlify.app/
+
+# Vite React TypeScript Starter
 
 Starter dla aplikacji React zbudowanej przy użyciu [Vite](https://vitejs.dev/), TypeScriptu, Tailwind CSS oraz ESLint.
 
