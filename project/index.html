@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>FitCoach - Trening Personalny & Coaching Fitness</title>
+    <meta name="description" content="Profesjonalne usługi treningu personalnego, które pomogą Ci przekształcić swoje ciało i osiągnąć cele fitness. Spersonalizowane plany treningowe, porady żywieniowe i stałe wsparcie.">
+    <meta name="keywords" content="trener personalny, coach fitness, plany treningowe, doradca żywieniowy, cele fitness, odchudzanie, budowa mięśni">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fitcoach.example/">
+    <meta property="og:title" content="FitCoach - Trening Personalny & Coaching Fitness">
+    <meta property="og:description" content="Profesjonalne usługi treningu personalnego, które pomogą Ci przekształcić swoje ciało i osiągnąć cele fitness.">
+    <meta property="og:image" content="https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fitcoach.example/">
+    <meta property="twitter:title" content="FitCoach - Trening Personalny & Coaching Fitness">
+    <meta property="twitter:description" content="Profesjonalne usługi treningu personalnego, które pomogą Ci przekształcić swoje ciało i osiągnąć cele fitness.">
+    <meta property="twitter:image" content="https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fitcoach.example/">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Structured data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "FitCoach Trening Personalny",
+        "image": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg",
+        "description": "Profesjonalne usługi treningu personalnego, które pomogą Ci przekształcić swoje ciało i osiągnąć cele fitness.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ul. Fitness 123",
+          "addressLocality": "Warszawa",
+          "addressRegion": "MAZ",
+          "postalCode": "00-001",
+          "addressCountry": "PL"
+        },
+        "telephone": "+48123456789",
+        "priceRange": "$$$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "06:00",
+            "closes": "21:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "08:00",
+            "closes": "14:00"
+          }
+        ]
+      }
+    </script>
+  </body>
+</html>
